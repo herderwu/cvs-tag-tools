@@ -2,26 +2,35 @@ cvs-tag-tools
 =============
 
 cvs tag tools by java
+---------------------
 
 a GUI tools to tag multi files
-by give a txt file, or copy file path at TextArea.
+by give a txt file, or copy file path at text area.
+
+require
+------------------------
+JDK 1.7
+org-netbeans-lib-cvsclient.jar
+
 
 config.properties readme
-make a file with name of config.properties at root folder
+------------------------
+make a file with name of *config.properties* at root folder
 
+1. local cvs folder
 LOCALROOT=c:\\client
-local cvs folder
 
-CVSSTRING=username:pwd
-cvs string
+2. cvs string
+CVSSTRING=:pserver:username:pwd@{cvs server}:/CVSRPT
 
+3. code folder
 SOURCEFOLDER=sourcecode
-code folder
 
+4. pre define Modules
 MODULES=Investopedia
-pre define Modules
 
+5. tag files folder
 RELEASE_FILE_FOLDER=doc\\release
-tag files txt
 
+6. tag file extend
 RELEASE_FILE_PREFIX=.txt
