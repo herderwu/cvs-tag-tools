@@ -4,3 +4,9 @@
 *.jar
 *.war
 *.ear
+/.settings/
+/bin/
+/build/
+/dist/
+/nbproject/
+config.properties
