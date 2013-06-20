@@ -2,6 +2,8 @@ cvs-tag-tools
 =============
 
 cvs tag tools by java
+
+created by jerome tan, now I update and maintain
 ---------------------
 
 a GUI tools to tag multi files
@@ -26,7 +28,7 @@ CVSSTRING=:pserver:username:pwd@{cvs server}:/CVSRPT
 3. code folder
 SOURCEFOLDER=sourcecode
 
-4. pre define Modules
+4. pre define Modules  
 MODULES=Investopedia
 
 5. tag files folder
